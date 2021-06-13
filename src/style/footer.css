@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  height:25vw;
+  height:28vw;
   color: #01a7c2;
   background:black;
   width: 100%;
@@ -12,7 +12,7 @@
   flex-direction: row;
   color: #01a7c2;
   background:black;
-  font-size: 3vw;
+  font-size: 3.6vw;
 }
 
 .upButton {
@@ -25,7 +25,7 @@
   flex-direction: row;
   height: 24px;
   width: 24px;
-  margin-left: 41vw;
+  margin-left: 31vw;
   margin-top: 5.7vw;
   background-color: #01a7c2;
 }
