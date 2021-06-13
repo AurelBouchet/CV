@@ -1,0 +1,91 @@
+.space,
+.bicloo,
+.visit {
+  margin-left: 2px;
+  display: grid;
+  grid-template-rows: 3;
+  grid-template-columns: 2;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+.siteName {
+  margin-left: 5px;
+  font-size: 4vw;
+  grid-column: 1/2;
+  grid-row: 1;
+  color: #00568f;
+}
+
+.description {
+  margin-left:auto;
+  margin-right:auto;
+  width: 52.8vw;
+  grid-column: 1;
+  grid-row: 3/;
+  padding: 3vw;
+  text-align: justify;
+  align-self: center;
+  text-justify: inter-word;
+  font-size: .7em;
+  color: black;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px black;
+}
+
+.real,
+.pic {
+  margin-left:auto;
+  margin-right:auto;
+  grid-column: 1;
+  grid-row: 1/2;
+  height: 36vw;
+  width: 52.8vw;
+  box-shadow: 2px 2px 4px black;
+}
+
+@media screen and (min-width: 740px) {
+  .siteName {
+    font-size: 2vw;
+  }
+
+  .description {
+    width: 100%;
+    grid-column: 2/3;
+  grid-row: 2/3;
+    height: 15vw;
+    font-size: 1.2vw;
+  }
+
+  .real,
+  .pic {
+    grid-column: 1/2;
+    grid-row: 2/3;
+     height: 15vw;
+  width: 22vw;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 2px 2px 6px 0px black;
+  }
+
+  .pic:hover {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+}
+

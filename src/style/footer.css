@@ -1,0 +1,84 @@
+.footer {
+  display: flex;
+  height:25vw;
+  color: #01a7c2;
+  background:black;
+  width: 100%;
+}
+
+.contact {
+  margin-top:5vw;
+  margin-left:4vw;
+  flex-direction: row;
+  color: #01a7c2;
+  background:black;
+  font-size: 3vw;
+}
+
+.upButton {
+  height: 24px;
+  width: 24px;
+  background-color: black;
+}
+
+.up {
+  flex-direction: row;
+  height: 24px;
+  width: 24px;
+  margin-left: 41vw;
+  margin-top: 5.7vw;
+  background-color: #01a7c2;
+}
+
+span{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  background-color:black;
+}
+@media screen and (min-width: 740px) {
+  .footer {
+    display: flex;
+    height: 12vw;
+  }
+
+  .contact {
+    background:black;
+    font-size: 2vw;
+    color: #01a7c2;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    flex-direction: row;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translate(0px, 0px);
+    }
+    to {
+      transform: translate(0px, 6px);
+    }
+  }
+
+  .up :hover {
+    animation-name: slideIn;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+  }
+
+  .upButton {
+    height: 48px;
+    width: 48px;
+    background-color: black;
+    border : solid .2px #01a7c2;
+  }
+  
+  .up {
+    flex-direction: row;
+    height: 48px;
+    width: 48px;
+    margin-left: 51vw;
+    margin-top: 4vw;
+    background-color: #01a7c2;
+  }
+}

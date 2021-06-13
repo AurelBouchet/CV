@@ -1,0 +1,72 @@
+.work {
+  padding-top: 0.7vw;
+  padding-bottom:1vw;
+  margin-bottom:.1vw;
+  margin-top:.2vw;
+  background-color: transparent;
+}
+
+.contento {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+.expe {
+  list-style: none;
+  padding-top: 6vw;
+  font-size: 3vw;
+  text-align: center;
+  color: black;
+  grid-column: 2;
+  grid-row: 1/4;
+  box-shadow: inset .1em .1em .1em .1em  #00568f, 2px 2px 8px black;
+}
+.left {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1/5;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.teach {
+  margin-top: 4.5vw;
+  grid-column: 2;
+  grid-row: 1/2;
+  padding: 1vw;
+  height: 7vw;
+}
+.barman {
+  grid-column: 2;
+  grid-row: 4;
+  padding: 0.9vw;
+}
+.reader {
+  height: 2vw;
+  grid-column: 3;
+  grid-row: 2/3;
+  margin-top: 3.9vw;
+  margin-left: 10vw;
+}
+
+@media screen and (min-width: 740px) {
+  .expe {
+    padding-top: 1vw;
+    font-size: 1.6vw;
+  }
+}
+.work {
+  padding-bottom:.5vw;
+  margin-bottom:.1vw;
+  margin-top:.2vw;
+}
+.tiret{
+  width:20%;
+  height: 5px;
+  background-color: #00568f;
+  margin : auto;
+  margin-top:1vw;
+  margin-bottom:1vw;
+  }

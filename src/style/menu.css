@@ -1,0 +1,170 @@
+.link {
+  background : #00568f;
+  text-decoration: none;
+  color: white;
+}
+
+.link:visited {
+  background : #00568f;
+  text-decoration: none;
+  color: white;
+}
+
+.navbarItems {
+  margin: 1em;
+  background : #00568f;
+  font-weight: bold;
+}
+
+.navbarLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: -100vw;
+  bottom: 0;
+  height: 100vh;
+  padding: 2rem;
+  z-index:1;
+}
+
+.showNav .navbarLinks {
+  width: 40%;
+  height: 350px;
+  right: 95px;
+  top: 2px;
+  background: #00568f;
+  box-shadow: inset .1em .1em 1em  #00568f;
+  opacity: 0.95;
+  border-radius: 10px;
+  color: white;
+  font-size: 4.5vw;
+  transition: 0.6s;
+}
+
+.burgerButton {
+  display: inline-block;
+  position: fixed;
+  margin-top:10vw;
+  margin-right: 22vw;
+  margin-left: 82vw;
+  border: none;
+  background: transparent;
+  z-index: 1000;
+  padding: 0.6em;
+}
+
+.burgerButton:hover {
+  cursor: pointer;
+}
+
+.navbarBurger,
+.navbarBurger::before,
+.navbarBurger::after {
+  display: block;
+  width: 40px;
+  height: 3px;
+  position: relative;
+  background: black;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbarBurger::before,
+.navbarBurger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.navbarBurger::before {
+  transform: translateY(-12px);
+}
+
+.navbarBurger::after {
+  transform: translateY(12px);
+}
+.showNav .navbarBurger {
+  background: transparent;
+}
+
+.showNav .navbarBurger::before {
+  transform: rotate(45deg);
+}
+
+.showNav .navbarBurger::after {
+  transform: rotate(-45deg);
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 740px) {
+  
+.link {
+  
+    text-decoration: none;
+    color: white;
+  }
+  .link:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+  .showNav .navbarLinks {
+    right: 0;
+    width: 30%;
+    height: 35vw;
+    margin-top:5.5vw;
+    background: #00568f;
+    opacity: 0.95;
+    border-radius: 5px;
+    color: white;
+    font-size: 2vw;
+    transition: 0.6s;
+  }
+
+  .burgerButton {
+    display: inline-block;
+    position: fixed;
+    margin-top:6vw;
+    margin-left: 90vw;
+    margin-right:8vw;
+    border: none;
+    background: transparent;
+    z-index: 1000;
+    padding:2em; 
+  }
+
+  .burgerButton:hover {
+    cursor: pointer;
+  }
+
+  .navbarBurger,
+  .navbarBurger::before,
+  .navbarBurger::after {
+    display: block;
+    width: 40px;
+    height: 5px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+  }
+  .navbarBurger::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    margin-top: -0.5px;
+    width: 40px;
+  }
+
+  .navbarBurger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 5px;
+    width: 40px;
+  }
+}

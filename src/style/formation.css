@@ -1,0 +1,32 @@
+.educ {
+  list-style: none;
+  color: #00568f;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+
+}
+
+.education {
+  margin-top: 1vw;
+  margin-bottom: 4vw;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to right, #00568f, 65%, #01a7c2);
+  box-shadow: 2px 2px 8px black;
+  font-size:4vw;
+  color: white;
+  width: 70%;
+  padding: 2vw;
+  box-shadow: inset 2em 1em 1em  #01a7c2, 2px 2px 8px black;
+}
+.logo1,
+.logo2 {
+  width: 8vw;
+}
+
+@media screen and (min-width: 740px) {
+  .education{
+    font-size:2vw;
+  }
+}
