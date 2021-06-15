@@ -10,18 +10,15 @@ const Hobbies = () => {
       <div className='hobbies'>
         <div className='music' data-aos='fade-top'>
           <img src={Music} alt='music' className='pics' />
-          J'écoute beaucoup de musique et en pratique également. J'ai commencé
-          par la guitare puis ont suivi la basse, le piano et le chant.
-          Recemment, je me suis décidé à concrétiser ce que j'avais en tête.
+          Je pratique le guitare, la basse, le piano et le chant.
           <br />
           J'écris et compose mes chansons, réalise le mixage et la production
-          sur le logiciel Reaper. J'espère pouvoir publier certaines d'entre
-          elles à court terme.{' '}
+          sur le logiciel Reaper et j'espère pouvoir publier certaines d'entre
+          elles à court terme.
         </div>
         <div className='trip' data-aos='fade-top'>
           <img src={Trip} alt='mnmt valley' className='pics' />
-          Passionné de voyage, je partais avant la pandémie parfois plusieurs
-          fois par an. Écosse, Sardaigne, Sicile, Croatie, Hongrie,... <br />
+          Grand passionné de voyage : Écosse, Sardaigne, Sicile, Croatie, Hongrie, ... <br />J'ai aussi travaillé 6 mois à Londres en tant que barman.<br />
           Mon souvenir le plus marquant : l'Ouest des États-Unis en solo durant
           2 mois.
         </div>
@@ -30,9 +27,8 @@ const Hobbies = () => {
           J'apprécie la randonnée, à la journée ou sur plusieurs jours
           (Pyrénées, Highlands,...).
           <br />
-          Je pratique également la course à pied 1 à 2 fois par semaine, pour
-          m'entretenir (un peu) et me vider la tête (beaucoup😁). J'ai participé
-          à un trail et 2 semi-marathons.
+          Je pratique également la course à pied pour
+          m'entretenir (un peu) et me vider la tête (beaucoup😁). J'ai notamment terminé 2 semi-marathons.
           <br />
           <br />
         </div>

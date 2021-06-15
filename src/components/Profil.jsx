@@ -47,7 +47,9 @@ const Profil = () => {
         </div>
       </div><br />
       <div className='linkLogo' data-aos="fade-left">
+      <a  className='linkTo' href='AurélienBouchet.pdf' download='AurélienBouchet.pdf' target='_blank'>
         <img src={Curriculum} alt='cv logo' className='cvLogo' />
+        </a>
         <a
           className='linkTo'
           href='https://www.linkedin.com/in/aur%C3%A9lien-bouchet/'
@@ -58,7 +60,7 @@ const Profil = () => {
         </a>
         <a
           className='linkTo'
-          href='https://github.com/AurelBouchet/'
+          href='https://github.com/AurelBouchet?tab=repositories'
           target='_blank'
           rel='noreferrer'
         >
@@ -67,7 +69,7 @@ const Profil = () => {
       </div>
       <p className='about'>
         Après différentes expériences professionnelles, j'ai décidé de me reconvertir dans le métier de développeur web. Actuellement en formation à la <a href="https://www.wildcodeschool.com/fr-FR/formations/developpeur-web?campus=nantes"  target='_blank'
-          rel='noreferrer' className="wild">WILD CODE SCHOOL</a> de Nantes. J'ai une grande soif d'apprendre et tout ce que je découvre chaque jour répond aux attentes du grand curieux que je suis!
+          rel='noreferrer' className="wild">WILD CODE SCHOOL</a> de Nantes, le code est devenu une passion pour moi, et tout ce que j'apprends chaque jour répond aux attentes du grand curieux que je suis!
       </p>
       <br /><br />
     </div>
