@@ -35,7 +35,10 @@ h2 {
   display: flex;
   height: 200px;
   margin-top: 5vw;
-  box-shadow: 2px 2px 8px;
+  border-style:solid;
+  border-width: 4px;
+  border-color: #00568f;
+  box-shadow: 1px .5px 6px 2px;
 }
 .presentation {
   margin-top: 2vw;
@@ -116,9 +119,7 @@ margin-top:4px;
     margin-bottom: 2vw;
     margin-top: 0.1vw;
     height: 35vw;
-    border-style: solid;
     border-width: 8px;
-    border-color: #00568f;
   }
 
   .intro {
