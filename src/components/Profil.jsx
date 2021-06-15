@@ -12,6 +12,7 @@ import Scrum from '../assets/scrum.svg';
 import Vsc from '../assets/vsc.svg';
 import Git from '../assets/git.svg';
 import Githubb from '../assets/git-hub.svg';
+import MyCv from '../assets/AurelienBouchet.pdf';
 import '../style/profil.css';
 
 import AOS from 'aos';
@@ -52,10 +53,17 @@ const Profil = () => {
             et je recherche un stage à partir du mois d'août
           </p>
         </div>
-      </div><br />
-      <div className='linkLogo' data-aos="fade-left">
-      <a  className='linkTo' href='AurélienBouchet.pdf' download='AurélienBouchet.pdf' target='_blank'>
-        <img src={Curriculum} alt='cv logo' className='cvLogo' />
+      </div>
+      <br />
+      <div className='linkLogo' data-aos='fade-left'>
+        <a
+          className='linkTo'
+          href={MyCv}
+          download='AurelienBouchet.pdf'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <img src={Curriculum} alt='cv logo' className='cvLogo' />
         </a>
         <a
           className='linkTo'
@@ -75,8 +83,19 @@ const Profil = () => {
         </a>
       </div>
       <p className='about'>
-        Après différentes expériences professionnelles, j'ai décidé de me reconvertir dans le métier de développeur web. Actuellement en formation à la <a href="https://www.wildcodeschool.com/fr-FR/formations/developpeur-web?campus=nantes"  target='_blank'
-          rel='noreferrer' className="wild">WILD CODE SCHOOL</a> de Nantes, le code est devenu une passion pour moi, et tout ce que j'apprends chaque jour répond aux attentes du grand curieux que je suis!
+        Après différentes expériences professionnelles, j'ai décidé de me
+        reconvertir dans le métier de développeur web. Actuellement en formation
+        à la{' '}
+        <a
+          href='https://www.wildcodeschool.com/fr-FR/formations/developpeur-web?campus=nantes'
+          target='_blank'
+          rel='noreferrer'
+          className='wild'
+        >
+          WILD CODE SCHOOL
+        </a>{' '}
+        de Nantes, le code est devenu une passion pour moi, et tout ce que
+        j'apprends chaque jour répond aux attentes du grand curieux que je suis!
       </p>
       <br />
       <br />
