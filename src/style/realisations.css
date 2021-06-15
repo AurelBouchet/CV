@@ -4,7 +4,7 @@
   margin-left: 2px;
   display: grid;
   grid-template-rows: 4;
-  grid-template-columns: 3;
+  grid-template-columns: 2;
   margin-top: 1vw;
   margin-bottom: 2vw;
 }
@@ -17,14 +17,15 @@
 }
 
 .description {
+  margin-left: auto;
+  margin-right: auto;
   width: 52.8vw;
-  grid-column: 2;
   grid-row: 3;
   padding: 3vw;
   text-align: justify;
   align-self: center;
   text-justify: inter-word;
-  font-size: 0.7em;
+  font-size: 0.9em;
   color: black;
   border-radius: 4px;
   box-shadow: 2px 2px 8px black;
@@ -32,7 +33,8 @@
 
 .real,
 .pic {
-  grid-column: 2;
+  margin-left: auto;
+  margin-right: auto;
   grid-row: 2;
   height: 36vw;
   width: 52.8vw;
