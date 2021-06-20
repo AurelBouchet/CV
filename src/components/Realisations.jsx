@@ -25,7 +25,7 @@ const Realisations = () => {
           <br />
           Déploiement prévu fin juillet.
           <br />
-          📱
+          📱💻
         </p>
         <img
           className='pic'
