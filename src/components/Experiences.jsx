@@ -13,44 +13,46 @@ AOS.init({
 
 const Experiences = () => {
   return (
-    <div className='experiences' id="experiences">
+    <div className='experiences' id='experiences'>
       <hr />
       <h1 className='title'>Expériences</h1>
       <div className='contento'>
         <div className='left'>
-          <div className='teach' data-aos='fade-right'>
-         
+          <div className='teach' data-aos='zoom-in'>
             <img src={Teacher} alt='teach' />
           </div>
-          <div className='barman' data-aos='fade-right'>
+          <div className='barman' data-aos='zoom-in'>
             <img src={Barman} alt='barman' />
           </div>
         </div>
         <ul className='expe'>
           <li className='work'>
-          <hr className="tiret"/>
+            <hr className='tiret' />
             <strong>Professeur des écoles</strong>
             <br /> 2019-2020, École Pierre de Ronsard
-            <br /> Le Mans<br /> <hr className="tiret"/>
+            <br /> Le Mans
+            <br /> <hr className='tiret' />
           </li>
           <li className='work'>
-          <strong> Aide-documentaliste</strong>
+            <strong> Aide-documentaliste</strong>
             <br /> 2014-2019, Explore
-            <br /> Carquefou<br /> <hr className="tiret"/>
+            <br /> Carquefou
+            <br /> <hr className='tiret' />
           </li>
           <li className='work'>
-          <strong>Aide-documentaliste</strong>
+            <strong>Aide-documentaliste</strong>
             <br /> 2010-2012, Vecteur Plus
-            <br /> Bouguenais<br /> <hr className="tiret"/>
+            <br /> Bouguenais
+            <br /> <hr className='tiret' />
           </li>
           <li className='work'>
-          <strong>Barman</strong>
+            <strong>Barman</strong>
             <br /> 2010, The Riverside
             <br /> Londres
-            <hr className="tiret"/>
+            <hr className='tiret' />
           </li>
         </ul>
-        <div className='reader' data-aos='fade-left'>
+        <div className='reader' data-aos='zoom-in'>
           <img src={Reader} alt='reader' />
         </div>
       </div>

@@ -22,7 +22,7 @@
   color: black;
   grid-column: 2;
   grid-row: 1/4;
-  box-shadow: inset .1em .1em .1em .1em  #00568f, 2px 2px 8px black;
+  box-shadow: inset .1em .1em .5em .1em  #00568f,  2px 2px 8px black;
 }
 .left {
   display: grid;

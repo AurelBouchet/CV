@@ -5,13 +5,15 @@ const Footer = () => {
     <div className='footer'>
       <div className='contact'>
         <hr />
-        <span>Aurélien Bouchet
-        <br />
-        06 33 93 32 96</span>
+        <span>
+          Aurélien Bouchet
+          <br />
+          06 33 93 32 96
+        </span>
         <br />
         aurelien-bouchet@hotmail.fr <hr />
       </div>
-      <a href='profil' className='up'>
+      <a href='#profil' className='up'>
         <img src={UpButton} alt='arrow-up' className='upButton' />
       </a>
     </div>

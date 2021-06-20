@@ -1,19 +1,50 @@
 import React from 'react';
+import { useState } from 'react';
 import '../style/realisations.css';
 import Bicloo from '../pics/biclooapp.JPG';
 import Space from '../pics/spaceok.jpg';
 import Nantes from '../pics/VisitNantes.jpg';
-
+import Kine from '../pics/kine.JPG';
+import Kinebis from '../pics/kinebis.jpg';
 const Realisations = () => {
+  const [isShown, setIsShown] = useState({ Kine });
+  function handlePop() {
+    setIsShown(!isShown);
+  }
+
   return (
-    <div className="realisations" id="realisations"><hr/>
-    <h1 className='title'>Réalisations</h1>
+    <div className='realisations' id='realisations'>
+      <hr />
+      <h1 className='title'>Réalisations</h1>
+      <div className='kine'>
+        <h3 className='siteName'>Kines.fr</h3>
+        <p className='description'>
+          (Projet en cours développé à 5 en 6 semaines) Plateforme d'échange de
+          contenu entre kinésithérapeutes et avec des entreprises tiers.
+          <br />
+          <br />
+          Déploiement prévu fin juillet.
+          <br />
+          📱
+        </p>
+        <img
+          className='pic'
+          alt='website pic'
+          src={isShown ? Kine : Kinebis}
+          onMouseEnter={handlePop}
+        ></img>
+      </div>
+      <br />
       <div className='space'>
         <h3 className='siteName'>Space Meet</h3>
         <p className='description'>
           Développée à 4 durant un hackathon de 36h, Space Meet est une
           application de rencontre entre humains et extra-terrestes basée sur
-          une API du jeu Mass Effect. <br/><br/>Déployée après 11 semaines de formation.<br/>📱
+          une API du jeu Mass Effect. <br />
+          <br />
+          Déployée après 11 semaines de formation.
+          <br />
+          📱
         </p>
         <a
           className='real'
@@ -28,10 +59,15 @@ const Realisations = () => {
       <div className='bicloo'>
         <h3 className='siteName'>Bicloo App</h3>
         <p className='description'>
-          Développée en React en 4 semaines à 5 personnes, Bibloo App gamifie le déplacement en Bicloo! <br/>Pour désengorger les
-          stations surchargées, l&apos;application incite l&apos;utilisateur à
-          déplacer les vélos vers des stations "vides" grâce à un système de
-          récompenses. <br/><br/>Déployée après 10 semaines de formation.<br/>📱
+          Développée en React en 4 semaines à 5 personnes, Bibloo App gamifie le
+          déplacement en Bicloo! <br />
+          Pour désengorger les stations surchargées, l&apos;application incite
+          l&apos;utilisateur à déplacer les vélos vers des stations "vides"
+          grâce à un système de récompenses. <br />
+          <br />
+          Déployée après 10 semaines de formation.
+          <br />
+          📱
         </p>
         <a
           className='real'
@@ -48,7 +84,12 @@ const Realisations = () => {
         <p className='description'>
           Protosite statique développé en 1 semaine après 4 semaines de
           formation, Visit Nantes propose de découvrir la ville et ses environs
-          au travers de ses onglets "Culture" ou "Pratique"<br/><br/>Déployée après 3 semaines de formation.<br/>📱💻
+          au travers de ses onglets "Culture" ou "Pratique"
+          <br />
+          <br />
+          Déployée après 3 semaines de formation.
+          <br />
+          📱💻
         </p>
         <a
           className='real'

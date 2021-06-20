@@ -32,9 +32,7 @@ const Profil = () => {
         <img src={Avatar} alt='avatar Aurélien' className='img' />
         <br />
         <div className='presentation'>
-          <p className='intro'>
-            Développeur web junior de 34 ans livré avec tout ça :
-          </p>
+          <p className='intro'>Développeur web junior de 34 ans livré avec :</p>
 
           <div className='technos'>
             <img src={Html} alt='html' className='tech' />
@@ -55,7 +53,7 @@ const Profil = () => {
         </div>
       </div>
       <br />
-      <div className='linkLogo' data-aos='fade-left'>
+      <div className='linkLogo' data-aos='zoom-in'>
         <a
           className='linkTo'
           href={MyCv}
