@@ -12,7 +12,7 @@ import Scrum from '../assets/scrum.svg';
 import Vsc from '../assets/vsc.svg';
 import Git from '../assets/git.svg';
 import Githubb from '../assets/git-hub.svg';
-import MyCv from '../assets/AurelienBouchet.pdf';
+import MyCv from '../assets/AurélienBouchetCV.pdf';
 import '../style/profil.css';
 
 import AOS from 'aos';

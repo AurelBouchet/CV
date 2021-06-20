@@ -20,7 +20,7 @@ const Realisations = () => {
         <h3 className='siteName'>Kines.fr</h3>
         <p className='description'>
           (Projet en cours développé à 5 en 6 semaines) Plateforme d'échange de
-          contenu entre kinésithérapeutes et avec des entreprises tiers.
+          contenu entre kinésithérapeutes et avec des entreprises tierces.
           <br />
           <br />
           Déploiement prévu fin juillet.
