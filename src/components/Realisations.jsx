@@ -44,7 +44,7 @@ const Realisations = () => {
           <br />
           Déployée après 11 semaines de formation.
           <br />
-          📱
+          📱💻
         </p>
         <a
           className='real'
