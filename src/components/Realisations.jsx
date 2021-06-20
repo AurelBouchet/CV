@@ -82,7 +82,8 @@ const Realisations = () => {
       <div className='simps'>
         <h3 className='siteName'>Simpsons Quotes</h3>
         <p className='description'>
-          Petite appli utilisant axios pour appeler une API. <br />
+          Petite application React réalisée au cours de ma formation utilisant
+          Axios pour appeler une API de citations des Simpson. <br />
           <br />
           📱💻
         </p>
