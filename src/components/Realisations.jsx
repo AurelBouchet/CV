@@ -79,6 +79,7 @@ const Realisations = () => {
           <img className='pic' alt='website pic' src={Bicloo}></img>
         </a>
       </div>
+      <br />
       <div className='simps'>
         <h3 className='siteName'>Simpsons Quotes</h3>
         <p className='description'>
@@ -89,7 +90,7 @@ const Realisations = () => {
         </p>
         <a
           className='real'
-          href='https://space-meet.netlify.app/'
+          href='https://random-simpsons-quotes.netlify.app/'
           target='_blank'
           rel='noreferrer'
         >
