@@ -6,7 +6,6 @@ import Space from '../pics/spaceok.jpg';
 import Nantes from '../pics/VisitNantes.jpg';
 import Kine from '../pics/kine.JPG';
 import Kinebis from '../pics/kinebis.jpg';
-import Simpsons from '../pics/simpsons.JPG';
 const Realisations = () => {
   const [isShown, setIsShown] = useState({ Kine });
   function handlePop() {
@@ -77,24 +76,6 @@ const Realisations = () => {
           rel='noreferrer'
         >
           <img className='pic' alt='website pic' src={Bicloo}></img>
-        </a>
-      </div>
-      <br />
-      <div className='simps'>
-        <h3 className='siteName'>Simpsons Quotes</h3>
-        <p className='description'>
-          Petite application React réalisée au cours de ma formation utilisant
-          Axios pour appeler une API de citations des Simpson. <br />
-          <br />
-          📱💻
-        </p>
-        <a
-          className='real'
-          href='https://random-simpsons-quotes.netlify.app/'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <img className='pic' alt='website pic' src={Simpsons}></img>
         </a>
       </div>
       <br />

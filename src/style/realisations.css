@@ -1,7 +1,6 @@
 .kine,
 .space,
 .bicloo,
-.simps,
 .visit {
   margin-left: 2px;
   display: grid;
@@ -47,7 +46,6 @@
   .kine,
   .space,
   .bicloo,
-  .simps,
   .visit {
     grid-template-rows: 3;
     grid-template-columns: 2;

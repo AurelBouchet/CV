@@ -48,12 +48,12 @@ const Profil = () => {
           </div>
           <br />
           <p className='intro'>
-            et je recherche un stage à partir du mois d'août
+            et je recherche un stage à partir du mois d'août!
           </p>
         </div>
       </div>
       <br />
-      <div className='linkLogo' data-aos='zoom-in'>
+      <div className='linkLogo'>
         <a
           className='linkTo'
           href={MyCv}
