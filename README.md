@@ -2,4 +2,5 @@ CV en ligne mobile/desktop réalisé au cours de ma formation à la Wild Code Sc
 
 -REACT
 -AOS
+aurelien-bouchet-cv.netlify.app
 
