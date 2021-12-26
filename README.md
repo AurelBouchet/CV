@@ -3,4 +3,6 @@ CV en ligne mobile/desktop réalisé au cours de ma formation à la Wild Code Sc
 -REACT
 -AOS
 
-to remove
+
+aurelien-bouchet-cv.netlify.app
+
