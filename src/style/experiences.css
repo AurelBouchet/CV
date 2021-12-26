@@ -1,15 +1,15 @@
 .work {
   padding-top: 0.7vw;
-  padding-bottom:1vw;
-  margin-bottom:.1vw;
-  margin-top:.2vw;
+  padding-bottom: 1vw;
+  margin-bottom: 0.1vw;
+  margin-top: 0.2vw;
   background-color: transparent;
 }
 
 .contento {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   margin-top: 3vw;
   margin-bottom: 3vw;
 }
@@ -21,8 +21,8 @@
   text-align: center;
   color: black;
   grid-column: 2;
-  grid-row: 1/4;
-  box-shadow: inset .1em .1em .5em .1em  #00568f,  2px 2px 8px black;
+  grid-row: 1/5;
+  box-shadow: inset 0.1em 0.1em 0.5em 0.1em #00568f, 2px 2px 8px black;
 }
 .left {
   display: grid;
@@ -31,23 +31,32 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+
+.developer {
+  margin-top: 8.5vw;
+  margin-left: 10vw;
+  height: 7vw;
+  grid-column: 3;
+  grid-row: 1;
+}
 .teach {
-  margin-top: 4.5vw;
+  margin-top: 10.5vw;
   grid-column: 2;
-  grid-row: 1/2;
+  grid-row: 2;
   padding: 1vw;
   height: 7vw;
 }
 .barman {
   grid-column: 2;
   grid-row: 4;
+  margin-top: 8.5vw;
   padding: 0.9vw;
 }
 .reader {
   height: 2vw;
   grid-column: 3;
-  grid-row: 2/3;
-  margin-top: 3.9vw;
+  grid-row: 3;
+  margin-top: 8.9vw;
   margin-left: 10vw;
 }
 
@@ -58,15 +67,15 @@
   }
 }
 .work {
-  padding-bottom:.5vw;
-  margin-bottom:.1vw;
-  margin-top:.2vw;
+  padding-bottom: 0.5vw;
+  margin-bottom: 0.1vw;
+  margin-top: 0.2vw;
 }
-.tiret{
-  width:20%;
+.tiret {
+  width: 20%;
   height: 5px;
   background-color: #00568f;
-  margin : auto;
-  margin-top:1vw;
-  margin-bottom:1vw;
-  }
+  margin: auto;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}

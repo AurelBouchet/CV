@@ -5,7 +5,7 @@ import '../style/experiences.css';
 import Reader from '../logo/reader.svg';
 import Teacher from '../logo/teacher.svg';
 import Barman from '../logo/barman.svg';
-
+import Developer from '../logo/developer.svg';
 AOS.init({
   delay: 200,
   duration: 1100,
@@ -26,6 +26,19 @@ const Experiences = () => {
           </div>
         </div>
         <ul className='expe'>
+          <li className='work'>
+            <hr className='tiret' />
+            <strong>Stagiaire Angular NgRX</strong>
+            <br /> sept. 2021 - janv. 2022, Ageval Solutions
+            <br /> Angers <br />
+            &#8227;Création d'un store avec effect pour redirection page 404.
+            <br />
+            &#8227; Refactor d'éléments selon nouvelle charte <br />
+            &#8227;Refactor de masse du repo (dossiers, fichiers, imports...)
+            <br />
+            #angularmodule #ngrx #lazyloading #scss
+            <br /> <hr className='tiret' />
+          </li>
           <li className='work'>
             <hr className='tiret' />
             <strong>Professeur des écoles</strong>
@@ -52,6 +65,9 @@ const Experiences = () => {
             <hr className='tiret' />
           </li>
         </ul>
+        <div className='developer' data-aos='zoom-in'>
+          <img src={Developer} alt='developer' />
+        </div>
         <div className='reader' data-aos='zoom-in'>
           <img src={Reader} alt='reader' />
         </div>

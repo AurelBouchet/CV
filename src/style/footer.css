@@ -1,24 +1,20 @@
 .footer {
   display: flex;
-  height:28vw;
-  color: #01a7c2;
-  background:black;
+  height: 28vw;
   width: 100%;
 }
 
 .contact {
-  margin-top:5vw;
-  margin-left:4vw;
+  margin-top: 5vw;
+  margin-left: 4vw;
   flex-direction: row;
   color: #01a7c2;
-  background:black;
   font-size: 3.6vw;
 }
 
 .upButton {
   height: 24px;
   width: 24px;
-  background-color: black;
 }
 
 .up {
@@ -30,9 +26,8 @@
   background-color: #01a7c2;
 }
 
-span{
+span {
   font-family: 'Montserrat Subrayada', sans-serif;
-  background-color:black;
 }
 @media screen and (min-width: 740px) {
   .footer {
@@ -41,7 +36,6 @@ span{
   }
 
   .contact {
-    background:black;
     font-size: 2vw;
     color: #01a7c2;
     margin-top: 1vw;
@@ -69,16 +63,13 @@ span{
   .upButton {
     height: 48px;
     width: 48px;
-    background-color: black;
-    border : solid .2px #01a7c2;
   }
-  
+
   .up {
     flex-direction: row;
     height: 48px;
     width: 48px;
     margin-left: 51vw;
     margin-top: 4vw;
-    background-color: #01a7c2;
   }
 }

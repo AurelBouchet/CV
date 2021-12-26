@@ -4,35 +4,54 @@ import '../style/realisations.css';
 import Bicloo from '../pics/biclooapp.JPG';
 import Space from '../pics/spaceok.jpg';
 import Nantes from '../pics/VisitNantes.jpg';
-import Kine from '../pics/kine.JPG';
-import Kinebis from '../pics/kinebis.jpg';
+import Todo from '../pics/todo.jpg';
+import Harry from '../pics/harry.jpg';
+import Harrybis from '../pics/harrybis.jpg';
 const Realisations = () => {
-  const [isShown, setIsShown] = useState({ Kine });
+  const [isShown, setIsShown] = useState({ Harry });
   function handlePop() {
     setIsShown(!isShown);
   }
 
   return (
     <div className='realisations' id='realisations'>
-      <hr />
       <h1 className='title'>Réalisations</h1>
-      <div className='kine'>
-        <h3 className='siteName'>Kines.fr</h3>
+      <hr />
+      <div className='harry'>
+        <h3 className='siteName'>Harrypedia</h3>
         <p className='description'>
-          (Projet en cours développé à 5 en 6 semaines) Plateforme d'échange de
-          contenu entre kinésithérapeutes et avec des entreprises tierces.
+          Application réalisée autour de l'univers d'Harry Potter. Elle mobilise
+          la consommation d'une API et l'injection d'un service.
           <br />
           <br />
-          Déploiement prévu fin juillet.
-          <br />
-          📱💻
+          #angular #rxjs #api 📱💻
         </p>
+
         <img
           className='pic'
           alt='website pic'
-          src={isShown ? Kine : Kinebis}
+          src={isShown ? Harry : Harrybis}
           onMouseEnter={handlePop}
         ></img>
+      </div>
+      <div className='todo'>
+        <h3 className='siteName'>My todo list</h3>
+        <p className='description'>
+          Todo list en Angular réalisée en mixant Tailwind, des variables SCSS
+          et la librairie SweetAlert2. Les données sont stockées dans le
+          localStorage.
+          <br />
+          <br />
+          #angular #localstorage #sweetalert2 #api 💻
+        </p>
+        <a
+          className='real'
+          href='https://todo-list-eight-lilac.vercel.app/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <img className='pic' alt='website pic' src={Todo}></img>
+        </a>
       </div>
       <br />
       <div className='space'>
@@ -42,9 +61,8 @@ const Realisations = () => {
           application de rencontre entre humains et extra-terrestes basée sur
           une API du jeu Mass Effect. <br />
           <br />
-          Déployée après 11 semaines de formation.
-          <br />
-          📱
+          #react #localstorage #api <br />
+          Déployée après 11 semaines de formation. 📱
         </p>
         <a
           className='real'
@@ -65,9 +83,8 @@ const Realisations = () => {
           l&apos;utilisateur à déplacer les vélos vers des stations "vides"
           grâce à un système de récompenses. <br />
           <br />
-          Déployée après 10 semaines de formation.
-          <br />
-          📱
+          #react #reacrtleaflet #api <br />
+          Déployée après 10 semaines de formation. 📱
         </p>
         <a
           className='real'
@@ -87,9 +104,8 @@ const Realisations = () => {
           au travers de ses onglets "Culture" ou "Pratique"
           <br />
           <br />
-          Déployée après 3 semaines de formation.
-          <br />
-          📱💻
+          #html #css
+          <br /> Déployée après 3 semaines de formation. 📱💻
         </p>
         <a
           className='real'

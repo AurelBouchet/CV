@@ -6,7 +6,6 @@ import Profil from './components/Profil';
 import Realisations from './components/Realisations';
 import Formation from './components/Formation';
 import Footer from './components/Footer';
-import Hobbies from './components/Hobbies';
 function App() {
   return (
     <div>
@@ -15,7 +14,6 @@ function App() {
       <Realisations />
       <Formation />
       <Experiences />
-      <Hobbies />
       <Footer />
     </div>
   );

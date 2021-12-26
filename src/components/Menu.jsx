@@ -23,9 +23,6 @@ const Menu = () => {
           <a href='#experiences' className='link' onClick={handleShowMenu}>
             <li className='navbarItems'>Expériences</li>
           </a>
-          <a href='#passions' className='link' onClick={handleShowMenu}>
-            <li className='navbarItems'>More</li>
-          </a>
         </ul>
       </nav>
     </div>
