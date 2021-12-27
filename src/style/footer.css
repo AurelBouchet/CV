@@ -8,7 +8,7 @@
   margin-top: 5vw;
   margin-left: 4vw;
   flex-direction: row;
-  color: #01a7c2;
+  color: #00568f;
   font-size: 3.6vw;
 }
 
@@ -23,7 +23,7 @@
   width: 24px;
   margin-left: 31vw;
   margin-top: 5.7vw;
-  background-color: #01a7c2;
+  background-color: #00568f;
 }
 
 span {
@@ -37,7 +37,7 @@ span {
 
   .contact {
     font-size: 2vw;
-    color: #01a7c2;
+    color: #00568f;
     margin-top: 1vw;
     margin-bottom: 2vw;
     margin-left: 2vw;

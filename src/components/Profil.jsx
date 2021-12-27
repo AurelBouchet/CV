@@ -1,6 +1,6 @@
 import Avatar from '../pics/cv.jpg';
 import Github from '../assets/github.svg';
-import Curriculum from '../assets/curriculum.svg';
+import Curriculum from '../assets/cv.svg';
 import Linkedin from '../assets/linkedin.svg';
 import Js from '../assets/js.svg';
 import Html from '../assets/html.svg';
@@ -17,7 +17,7 @@ import Figma from '../assets/figma.svg';
 import Sass from '../assets/sass.svg';
 import Tailwind from '../assets/tailwind.svg';
 import Ngrx from '../assets/ngrx.svg';
-import MyCv from '../assets/AurélienBouchetCV.pdf';
+import MyCv from '../assets/aurelien-bouchet-cv.pdf';
 import '../style/profil.css';
 
 import AOS from 'aos';
@@ -64,20 +64,20 @@ const Profil = () => {
       <div className='linkLogo'>
         <a
           className='linkTo'
-          href={MyCv}
-          download='AurelienBouchet.pdf'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <img src={Curriculum} alt='cv logo' className='cvLogo' />
-        </a>
-        <a
-          className='linkTo'
           href='https://www.linkedin.com/in/aur%C3%A9lien-bouchet/'
           target='_blank'
           rel='noreferrer'
         >
           <img src={Linkedin} alt='linkedin logo' className='linkedinLogo' />
+        </a>
+        <a
+          className='linkTo'
+          href={MyCv}
+          download='aurelien-bouchet-cv.pdf'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <img src={Curriculum} alt='cv logo' className='cvLogo' />
         </a>
         <a
           className='linkTo'

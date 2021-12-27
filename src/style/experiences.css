@@ -33,14 +33,14 @@
 }
 
 .developer {
-  margin-top: 8.5vw;
+  margin-top: 9.5vw;
   margin-left: 10vw;
   height: 7vw;
   grid-column: 3;
   grid-row: 1;
 }
 .teach {
-  margin-top: 10.5vw;
+  margin-top: 12.5vw;
   grid-column: 2;
   grid-row: 2;
   padding: 1vw;
@@ -49,14 +49,14 @@
 .barman {
   grid-column: 2;
   grid-row: 4;
-  margin-top: 8.5vw;
+  margin-top: 4.5vw;
   padding: 0.9vw;
 }
 .reader {
   height: 2vw;
   grid-column: 3;
   grid-row: 3;
-  margin-top: 8.9vw;
+  margin-top: 7.9vw;
   margin-left: 10vw;
 }
 

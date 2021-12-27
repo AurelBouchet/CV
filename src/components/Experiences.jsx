@@ -30,8 +30,8 @@ const Experiences = () => {
             <hr className='tiret' />
             <strong>Stagiaire Angular NgRX</strong>
             <br /> sept. 2021 - janv. 2022, Ageval Solutions
-            <br /> Angers <br />
-            &#8227;Création d'un store avec effect pour redirection page 404.
+            <br /> Angers <br />-<br />
+            &#8227;Création d'un store avec effect pour redirection page 404
             <br />
             &#8227; Refactor d'éléments selon nouvelle charte <br />
             &#8227;Refactor de masse du repo (dossiers, fichiers, imports...)

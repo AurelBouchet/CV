@@ -30,9 +30,9 @@
 }
 
 .showNav .navbarLinks {
-  margin-right:0px;
+  margin-right: 0px;
   width: 48%;
-  height: 85vw;
+  height: 65vw;
   right: 0;
   top: 0vw;
   background: #00568f;
@@ -46,8 +46,8 @@
 
 .burgerButton {
   display: block;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   position: fixed;
   background: black;
   margin-top: 10vw;
@@ -63,8 +63,8 @@
 .navbarBurger::before,
 .navbarBurger::after {
   display: inline-block;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   width: 40px;
   height: 3px;
   position: fixed;
@@ -99,13 +99,11 @@
   transform: rotate(-45deg);
 }
 
-
 @media screen and (min-width: 740px) {
-
   .showNav .navbarLinks {
-    margin-right:0px;
+    margin-right: 0px;
     width: 30%;
-    height: 41vw;
+    height: 35vw;
     padding: 3.9rem;
     background: #00568f;
     opacity: 0.95;
