@@ -18,7 +18,7 @@ const Realisations = () => {
       <h1 className='title'>Réalisations</h1>
       <hr />
       <div className='harry'>
-        <h3 className='siteName'>Harrypedia</h3>
+        <h3 className='siteName'>Harry and friends</h3>
         <p className='description'>
           Application réalisée autour de l'univers d'Harry Potter. Elle mobilise
           la consommation d'une API et l'injection d'un service.
